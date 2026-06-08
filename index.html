@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Best Friend Day | My Amazing Bestie</title>
+    <meta name="description" content="A cheerful and cute tribute for the best friend in the world!">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="bg-circles">
+        <div class="circle" style="width: 400px; height: 400px; background: #A0D8EF; top: -100px; left: -100px;"></div>
+        <div class="circle" style="width: 300px; height: 300px; background: #FFEFBA; bottom: 10%; right: -50px;"></div>
+        <div class="circle" style="width: 250px; height: 250px; background: #FFD3B6; top: 40%; left: 10%;"></div>
+    </div>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-img-container reveal">
+                <img src="hero.png" alt="Happy Best Friends" class="hero-image">
+                <span class="floating-icon" style="top: -20px; right: -20px;">✨</span>
+                <span class="floating-icon" style="bottom: -10px; left: -30px; animation-delay: 1s;">🌈</span>
+            </div>
+
+            <h1 class="reveal">Happy Best Friend Day!</h1>
+            <p class="reveal">Today is all about celebrating the person who makes every day a little brighter. Thank you
+                for being the most amazing female bestfriend could ask for!</p>
+
+            <button class="btn-primary reveal" id="surprise-btn">SEND SOME LOVE 🎈</button>
+        </section>
+
+        <!-- Friendship Meter -->
+        <section class="meter-container reveal">
+            <h3 id="meter-text">CALCULATING BESTIE POWER...</h3>
+            <div class="meter-base">
+                <div class="meter-fill">
+                    <span class="meter-heart">❤️</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="grid">
+            <div class="card reveal">
+                <span class="card-icon">☀️</span>
+                <h3>Pure Sunshine</h3>
+                <p>You have this amazing way of making everyone around you smile. Life is just better with your positive
+                    energy around.</p>
+            </div>
+
+            <div class="card reveal">
+                <span class="card-icon">🤝</span>
+                <h3>Always There</h3>
+                <p>From the biggest milestones to the smallest moments, thank you for always being just a call away.
+                    You're a true gem.</p>
+            </div>
+
+            <div class="card reveal">
+                <span class="card-icon">🧁</span>
+                <h3>Sweetest Soul</h3>
+                <p>You’re kind, thoughtful, and genuinely the best person I know. I’m so lucky to have you as my
+                    bestfriend!</p>
+            </div>
+        </div>
+
+        <!-- Digital Envelope -->
+        <section class="hero reveal" style="min-height: 50vh;">
+            <h2>A Little Message For You...</h2>
+            <div class="envelope-wrapper">
+                <div class="envelope" id="envelope">
+                    <div class="letter">
+                        <p style="font-size: 0.9rem; color: #555;">To my bestest friend in the world...</p>
+                        <p style="font-weight: 700; color: var(--accent-color); margin-top: 10px;">Thank you for always
+                            being you. You're irreplaceable! ❤️</p>
+                    </div>
+                </div>
+            </div>
+            <p>(Click the envelope to open!)</p>
+        </section>
+
+        <section class="hero reveal" style="min-height: 40vh; margin-top: 4rem;">
+            <h2>To Many More Memories! 🥂</h2>
+            <p>I can't wait for all the adventures we still have ahead of us.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>No nazar to us🧿| Best Friend Day 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
